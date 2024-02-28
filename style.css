@@ -64,6 +64,8 @@ html, body #fullheight{
 }
     
 .itemZero{
+    justify-content: start;
+    align-items: center;
     background-color: #343434;
     border: none;
     width: 435px;
