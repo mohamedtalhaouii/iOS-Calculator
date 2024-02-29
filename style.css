@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+* {
+    box-sizing: border-box;
+  }
 
 html, body #fullheight{
     min-height: 50% !important;
@@ -22,7 +25,6 @@ html, body #fullheight{
 }
 .buttons{
     justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
     background-color: black;
