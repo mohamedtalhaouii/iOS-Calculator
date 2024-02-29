@@ -24,7 +24,11 @@ function handleButtonClick(event) {
         event.preventDefault()
         return
     }
-    const value = event.target.value;
+    let value = event.target.innerText;
+
+	if (value === "=") {
+		return
+	}
 
     if ($input.value === 0 && value === 0){
         return
@@ -38,9 +42,10 @@ function handleButtonClick(event) {
 
     if (operators.includes(result[result.length - 1]) && operators.includes(value)) {
         $input.value = $input.value.replace(/.$/, value)
-        result.value = $input.value.replace(/.$/, value)
+        result = $input.value.replace(/.$/, value)
         return 
     }
+
 
     result += value
     $input.value += value; 
@@ -48,8 +53,9 @@ function handleButtonClick(event) {
 
 function calculateResult() {
     try {
+		result = result.replace(/×/g, '*').replace(/÷/g, '/');
         $input.value = eval(result)
-        freez = true
+        // freez = true
     } catch (e) {
       $input.value = "Error"
       setTimeout( () => {
