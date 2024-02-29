@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
 }
-* {
-    box-sizing: border-box;
-  }
 
 html, body #fullheight{
     min-height: 50% !important;
@@ -37,8 +34,8 @@ html, body #fullheight{
     align-items: center;
     font-size: 70px;
     color: white;
-    height: 160px;
-    width: 160px;
+    height: 220px;
+    width: 200px;
     border-radius: 100%;
     padding: 10px;
     cursor: pointer;
@@ -73,18 +70,20 @@ html, body #fullheight{
     align-items: center;
     background-color: #343434;
     border: none;
-    width: 330px;
-    border-radius: 135px;
+    width: 75%;
+    border-radius: 120px;
     grid-column: span 2;
 }
 
 #input {
     display: flex;
-    font-size: 200px;
+    font-size: 210px;
     background-color: black;
     border: none;
     color: white;
     text-align: right;
     margin-right: 5%;
+    padding-top: 39%;
     width: 100%;
+    
 }
