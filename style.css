@@ -73,6 +73,7 @@ html, body #fullheight{
     width: 100%;
     border-radius: 120px;
     grid-column: span 2;
+    padding-left: 20%;
 }
 
 #input {
