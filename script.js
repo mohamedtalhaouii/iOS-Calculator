@@ -59,7 +59,7 @@ function calculateResult() {
     } catch (e) {
       $input.value = "Error"
       setTimeout( () => {
-        if (confirm("wa3la hmaar")){
+        if (confirm("Error!")){
             clearResult
         }
       }, 0)
