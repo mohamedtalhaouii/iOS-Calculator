@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-@media screen and (min-width: 1000px){ /*For PC*/
+@media screen and (min-width: 992px){ /*For PC (In Progress...)*/
     html, body #fullheight{
         min-height: 100% !important;
         height: 100%;
@@ -90,7 +90,7 @@
     }
     
 }
-@media screen and (max-width: 768px){ /*For Phones*/
+@media screen and (max-width: 992px){ /*For Phones*/
 
     html, body #fullheight{
         min-height: 50% !important;
