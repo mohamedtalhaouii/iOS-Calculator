@@ -27,7 +27,7 @@
         background-color: black;
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 20% 25% 20% 25%;
     }
     .item{
         display: flex;
