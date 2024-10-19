@@ -88,6 +88,41 @@
         padding-top: 10%;
         width: 100%;
     }
+
+    /*Position of Buttons*/
+    .clear{
+        grid-column: 4;
+        grid-row: 1; 
+    }
+    .sign{
+        grid-column: 4;
+        grid-row: 2;
+    }
+    .persent{
+        grid-column: 4;
+        grid-row: 3;
+    }
+    .equal{
+        grid-column: 4;
+        grid-row: 4;
+    }
+    .divide{
+        grid-column: 5;
+        grid-row: 1;
+    }
+    .multiply{
+        grid-column: 5;
+        grid-row: 2;
+    }
+    .minus{
+        grid-column: 5;
+        grid-row: 3;
+    }
+    .plus{
+        grid-column: 5;
+        grid-row: 4;
+    }
+    /*----------*/
     
 }
 @media screen and (max-width: 992px){ /*For Phones*/
